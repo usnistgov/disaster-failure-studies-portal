@@ -1,0 +1,55 @@
+.content {
+  display: none;
+}
+
+.btn-margin {
+  margin-top: 7px
+}
+
+#loading {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+#explorer {
+  height: 325px;
+}
+@media (min-width: 576px) {
+  #explorer {
+    height: 500px;
+  }
+}
+@media (min-width: 768px) {
+  #explorer {
+    height: 675px;
+  }
+}
+@media (min-width: 992px) {
+  #explorer {
+    height: 500px;
+  }
+}
+
+#explorer .be-header {
+  display: none;
+}
+
+#token-expired {
+  display: none;
+}
+
+#help-view {
+  display: none;
+}
+
+.embed-responsive-long {
+  padding-top: 205%;
+}
